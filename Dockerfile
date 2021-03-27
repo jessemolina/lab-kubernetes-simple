@@ -6,7 +6,7 @@ RUN mkdir -p /app
 WORKDIR /app
 
 # Install requirements
-COPY ./src/requirements.txta /app/requirements.txt
+COPY ./src/requirements.txt /app/requirements.txt
 RUN pip install -r requirements.txt
 
 # Stage application
